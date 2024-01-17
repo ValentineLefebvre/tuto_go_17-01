@@ -8,7 +8,7 @@ import (
 func Count(thing string) {
 	for i := 0; i < 15; i++ {
 		fmt.Println(i, thing)
-		time.sleep(500 * time.Millisecond)
+		time.Sleep(500 * time.Millisecond)
 	}
 }
 
